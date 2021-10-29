@@ -1,0 +1,118 @@
+
+@import 'variables';
+@import 'typography';
+@import 'inputs';
+@import 'buttons';
+@import 'selects';
+
+html {
+  height: 100%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+body {
+  color: white;
+  font-family: $main-font;
+  font-weight: 300;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  position: relative;
+}
+
+
+#__next {
+  height: 100%;
+}
+
+p {
+  font-family: $text-font;
+  font-size: 23px;
+  line-height: 50px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.caption {
+  font-family: $secondary-font;
+  font-size: 22px;
+  letter-spacing: 5.6px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: $main-font;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: lighter;
+  letter-spacing: -1.35px;
+  line-height: 70px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.divider {
+  width: 40%;
+  height: 1px;
+  background-color: rgba($color: white, $alpha: 0.5);
+  margin: 6rem 0;
+}
+
+@media screen and (max-width: 1280px) {
+
+  p {
+    font-size: 20px;
+    line-height: 44px;
+  }
+
+  .caption {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 68px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .caption  {
+    font-size: .9rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .divider {
+    margin: 4rem 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}

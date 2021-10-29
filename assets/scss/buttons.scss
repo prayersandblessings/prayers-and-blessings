@@ -1,0 +1,82 @@
+.main-button {
+    background: white;
+    border: 0;
+    border-radius: 4px;
+    color: $main-color;
+    cursor: pointer;
+    height: 56px;
+    padding: 20px 24px;
+    transition: ease-in .5s;
+
+    &:hover {
+        background: $main-color;
+        color: white;
+        transition: ease-in .5s;
+    }
+}
+
+.secondary-button {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2rem;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 20px 24px;
+}
+
+.next-button {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-family: $main-font;
+    font-size: 1rem;
+    font-weight: 300;
+
+    span {
+        margin-left: .5rem;
+    }
+
+    img {
+        margin-left: 1.5rem;
+    }
+}
+
+.scroll-button {
+    cursor: pointer;
+
+    > div {
+        width: 2px;
+        height: 50px;
+        background: white;
+        margin: 0 auto 2rem auto;
+    }
+
+    span {
+        font-size: 10px;
+        font-family: $text-font;
+        letter-spacing: 3.37px;
+    }
+}
+
+.candle-button {
+    background: transparent;
+    border: 0;
+    color: white;
+    display: flex;
+    font-family: $main-font;
+    font-size: 1.3rem;
+    align-items: center;
+
+    img {
+        height: 26px;
+        margin-right: 1rem;
+        width: 26px;
+    }
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+}
