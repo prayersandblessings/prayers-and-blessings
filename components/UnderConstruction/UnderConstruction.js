@@ -6,9 +6,7 @@ import classes from "./UnderConstruction.module.scss";
 const UnderConstruction = () => {
   return (
     <div className={classes.content}>
-      <Pulse>
-        <h1>Light to Light</h1>
-      </Pulse>
+      <h1>Light to Light</h1>
 
       <h2>Prayers and Blessings</h2>
 
